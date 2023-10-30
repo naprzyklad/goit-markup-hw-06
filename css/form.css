@@ -162,6 +162,7 @@
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: 0 auto;
 }
 .send-form:focus,
 .send-form:hover {
@@ -199,11 +200,12 @@
   fill: transparent;
 }
 
-.privacy-link {
+.policy-link {
   color: var(--button-color);
 }
 
-.user-privacy:checked + .privacy-label {
+.user-privacy:checked + .privacy-label span {
   border: none;
   fill: var(--fill-color);
+  background-color: var(--button-color);
 }
