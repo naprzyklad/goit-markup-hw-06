@@ -204,7 +204,7 @@
   color: var(--button-color);
 }
 
-.user-privacy:checked + .privacy-label span {
+.user-p:checked + .privacy-label span {
   border: none;
   fill: var(--fill-color);
   background-color: var(--button-color);
