@@ -245,6 +245,10 @@
   gap: 24px;
 }
 
+.sub-form input {
+  gap: 24px;
+}
+
 .sub-input input[placeholder] {
   color: #ffffff;
 }
