@@ -198,6 +198,7 @@
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .policy-link {
